@@ -1,8 +1,18 @@
+Membros:
+
+Gustavo Bertoluzzi Cardoso: 22.123.016-2  - DEV
+
+Isabella Vieira Silva Rossetto: 22.222.036-0 - PO
+
+Henrique Hodel Babler: 22.125.084-8 - DEV
+
+Matheus Ferreira de Freitas: 22.125.085-5 - SCRUM MASTER
+
 # BuscaTotal 🏷️
 
 O **BuscaTotal** é uma plataforma de agregação de ofertas e inteligência de mercado voltada para o E-commerce. O sistema resolve o problema da fragmentação de preços em lojas online, oferecendo transparência, histórico de valores e automação de monitoramento para consumidores estratégicos.
 
-Este projeto é desenvolvido como parte da disciplina de **Engenharia de Software Avançada** (Curso de Ciência da Computação), focando na criação de um software evolutivo e escalável.
+Este projeto é desenvolvido como parte da disciplina de **Engenharia de Software Avançada**, focando na criação de um software evolutivo e escalável.
 
 ---
 
