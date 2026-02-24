@@ -1,6 +1,7 @@
 ### 1. Diagrama de Casos de Uso
 **Descrição:** Este diagrama mapeia as necessidades funcionais do sistema baseadas nos requisitos de reuso.
-<img width="1024" height="236" alt="image" src="https://github.com/user-attachments/assets/5425d2db-34aa-476d-badc-26f2b98c10c1" />
+<img width="1013" height="250" alt="image" src="https://github.com/user-attachments/assets/f251a263-722b-4d1e-835c-2d9ebe000f19" />
+
 
 
 ### 1. UC 01: Buscar Produto nas Lojas
