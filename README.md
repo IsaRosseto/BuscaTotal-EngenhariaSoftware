@@ -1,12 +1,12 @@
 Membros:
 
-Gustavo Bertoluzzi Cardoso: 22.123.016-2  - DEV
+Gustavo Bertoluzzi Cardoso: 22.123.016-2  
 
-Isabella Vieira Silva Rossetto: 22.222.036-0 - PO
+Isabella Vieira Silva Rossetto: 22.222.036-0 
 
-Henrique Hodel Babler: 22.125.084-8 - DEV
+Henrique Hodel Babler: 22.125.084-8 
 
-Matheus Ferreira de Freitas: 22.125.085-5 - SCRUM MASTER
+Matheus Ferreira de Freitas: 22.125.085-5 
 
 # BuscaTotal 🏷️
 
