@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuscaTotal - Smart Shopping</title>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">🚀</span>
+                Busca<span class="logo-highlight">Total</span>
+            </a>
+            <div class="header-badges">
+                <span class="badge">Lab 04</span>
+                <span class="badge badge-primary">Arquitetura</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Hero Search Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Encontre os melhores produtos. <br><span class="gradient-text">Nos melhores sites.</span></h1>
+                <p class="hero-subtitle">Nossa IA normaliza termos e filtra o lixo para exibir ofertas exatas através de Injeção de Dependências.</p>
+                
+                <div class="search-wrapper">
+                    <form id="searchForm" class="search-form">
+                        <div class="input-group">
+                            <span class="search-icon">🔍</span>
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                class="search-input" 
+                                placeholder="Busque por um produto (ex: iPhone 13, Galaxy S23...)"
+                                autocomplete="off"
+                                required
+                            >
+                            <button type="button" id="clearBtn" class="clear-btn" aria-label="Limpar busca">×</button>
+                        </div>
+                        <button type="submit" class="search-button">
+                            <span>Buscar</span>
+                            <div class="loader" id="searchLoader"></div>
+                        </button>
+                    </form>
+                </div>
+                
+                <div id="statsContainer" class="stats-container hidden">
+                    <p class="stats-text" id="statsText"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section">
+            <div class="container">
+                
+                <!-- Feedback States -->
+                <div id="loadingState" class="state-container hidden">
+                    <div class="spinner"></div>
+                    <p>Consultando APIs Parceiras via IStoreSearch...</p>
+                </div>
+
+                <div id="errorState" class="state-container hidden">
+                    <div class="error-icon">⚠️</div>
+                    <p id="errorMessage" class="error-message">Ops! Ocorreu um erro ao buscar.</p>
+                </div>
+
+                <div id="emptyState" class="state-container hidden">
+                    <div class="empty-icon">📂</div>
+                    <p>Nenhum produto atendeu ao critério de similaridade do IntelligenceProcessor.</p>
+                </div>
+
+                <!-- Products Grid -->
+                <div id="resultsGrid" class="results-grid">
+                    <!-- Produto Injetado via JS -->
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Projeto Desenvolvido para a disciplina de Arquitetura de Software</p>
+            <p class="footer-small">Componentes: <code>IntelligenceProcessor</code> e <code>StoreSearch</code></p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
