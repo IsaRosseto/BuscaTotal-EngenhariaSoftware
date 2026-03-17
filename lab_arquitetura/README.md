@@ -1,6 +1,6 @@
 # Lab de Arquitetura - Componentes e Interfaces (BuscaTotal)
 
-Este projeto implementa os três componentes do sistema arquitetural modelado no **Lab 03 — Diagrama de Componentes de Software**, focando na comunicação exclusiva por meio de interfaces (fornecidas e requeridas) e injeção de dependência, seguindo os contratos definidos nos Casos de Uso UC01 a UC07.
+Este projeto implementa os três componentes do sistema arquitetural, focando na comunicação exclusiva por meio de interfaces (fornecidas e requeridas) e injeção de dependência, seguindo os contratos definidos nos Casos de Uso UC01 a UC07.
 
 ---
 
